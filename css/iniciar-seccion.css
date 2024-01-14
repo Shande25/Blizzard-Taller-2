@@ -1,0 +1,48 @@
+body {
+    background-color: blue;
+}
+
+.mi-navbar {
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.mi-navbar-img {
+    height: 45px;
+}
+
+.navbar-titulo {    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.mi-img{
+
+    width: 100%;
+    height: 100%; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.img-battle{
+
+width: 200px;
+height: 100px;
+
+}
+.registrarse{
+
+margin-left: -90px;
+
+}
+.hr{
+
+    border-bottom: 2px solid rgb(45, 112, 199); 
+
+}
