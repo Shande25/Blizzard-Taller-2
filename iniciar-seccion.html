@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" conten="Taller IIa" />
-    <meta name="kerwords" content="html,Cuenta" />
+    <meta name="description" conten="InciarSeccion" />
+    <meta name="kerwords" content="html,iniciar seccion" />
     <meta name="autor" content="Jahir Shande" />
-    <link rel="stylesheet" href="css/cuenta.css">
+    <link rel="stylesheet" href="css/iniciar-seccion.css">
     <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
     rel="stylesheet"
@@ -14,7 +14,7 @@
     crossorigin="anonymous"
   />
     
-    <title>Registrarse</title>
+    <title>Iniciar Seccion</title>
 </head>
 <body>
     
@@ -59,80 +59,50 @@
           </li>
         </ul>
       </div>
-      <div
-      style="position: relative; margin-left: 10px"
-      class="d-flex align-items-center"
-    >
-      <div class="dropdown">
-        <a
-          data-toggle="dropdown"
-          class="dropdown-toggle d-flex align-items-center hidden-arrow"
-          href="#"
-          id="navbarDropdownMenuAvatar"
-          role="button"
-          aria-expanded="false"
-        >
-          <img
-            src="https://i.pinimg.com/236x/c5/c0/b0/c5c0b00fafd9e5e4b7fd913a1dbcfc2f.jpg"
-            class="rounded-circle"
-            height="25"
-            alt="Black and White Portrait of a Man"
-            loading="lazy"
-          />
-        </a>
-        <div
-          class="dropdown-menu dropdown-menu-right mt-0"
-          aria-labelledby="navbarDropdownMenuAvatar"
-          style="
-            right: 0;
-            z-index: 1000;
-            background-color: rgba(0, 0, 0, 0.5);
-          "
-        >
+
+      <div class="d-flex align-items-center">
+        <div class="dropdown">
           <a
-            style="color: white"
-            class="dropdown-item"
+            data-mdb-dropdown-init
+            class="dropdown-toggle d-flex align-items-center hidden-arrow"
             href="#"
-            onclick="cerrarSesion()"
-            >Cerrar Sesión</a
+            id="navbarDropdownMenuAvatar"
+            role="button"
+            aria-expanded="false"
           >
+            <img
+              src="https://i.pinimg.com/236x/c5/c0/b0/c5c0b00fafd9e5e4b7fd913a1dbcfc2f.jpg"
+              class="rounded-circle"
+              height="25"
+              alt="Black and White Portrait of a Man"
+              loading="lazy"
+            />
+          </a>
         </div>
       </div>
     </div>
-  </div>
-</nav>
+  </nav>
   <hr class="hr">
-<br>
+<div>
+    <br><br><br><br>
+</div>
     <div class="container">
         <img class="img-battle" src="https://1000logos.net/wp-content/uploads/2022/10/BattleNet-logo.png" alt="">
-    </div> 
+    </div>
     <div style="display: flex; justify-content:center">
-    <form action="php/registro.php" method="post">
+    <form action="#">
     <br>
-    <label for="id_usuario">Ingresar usuario</label>
-    <br>
-    <input type="text" name="usuario" placeholder="" id="id_usuario">
-    <br><br>
-    <label for="id_nombre">Ingresar nombre</label>
+    <label for="id_nombre">Ingresar usuario</label>
     <br>
     <input type="text" name="nombre" placeholder="" id="id_nombre">
     <br><br>
-    <label for="id_apellido">Ingresar apellido</label>
-    <br>
-    <input type="text" name="apellido" placeholder="" id="id_apellido">
-    <br><br>
-    <label for="id_email">Ingrese su correo electronico</label>
-    <br>
-    <input type="text" id="id_email" placeholder="" name="email">
-    <br><br>
     <label for="id_passw">Ingrese su contraseña</label>
     <br>
-    <input type="text" id="id_passw" placeholder="" name="contrasenia">
+    <input type="text" id="id_passw" placeholder="" name="contraseña">
     <br><br><br>
-    <input class="registrarse" type="submit" value="Registrarse"inputmode="btnRegistrar">  
+    <input class="registrarse" type="submit" value="Iniciar Seccion" >
     <br><br><br>
-    <a href="iniciar-seccion.html"><h6>Ya tienes cuenta, Inicia seccion aqui</h6></a>
-    
+    <a href="cuenta.html"><h6>Aun no tienes cuenta, presione para registrarte</h6></a>
 </form> 
 </div>
 </div>
@@ -145,6 +115,5 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
-    <script src="js/cuenta.js"></script>
 </body>
 </html>

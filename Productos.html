@@ -481,21 +481,21 @@
     <div id="miModal" class="modal">
       <div class="modal-content" style=" background-color: rgba(0, 0, 0, 0.788);">#011827
         <h2 style="color: white;">Ingresa los detalles de tu tarjeta de crédito</h2>
-        <form action="" method="">
-        <br>
+        <form action="php/targetas.php" method="post">
+        <br><br>
         <input style= "background-color: rgba(0, 0, 0, 0.5);color: white;" type="text" placeholder="Titular" name="titular">
-        <br>  
+        <br><br>
         <input style=" background-color: rgba(0, 0, 0, 0.5);color: white;" type="text" placeholder="Número de tarjeta" name="numero">
-        <br>
+        <br><br>
         <input style=" background-color: rgba(0, 0, 0, 0.5);color: white;" type="text" placeholder="Fecha de vencimiento" name="validacion">
-        <br>
+        <br><br>
         <input style=" background-color: rgba(0, 0, 0, 0.5);color: white;" type="text" placeholder="Código de seguridad" name="codigo">
-        <br>
+        <br><br>
         <button style=" background-color: rgb(117, 57, 165);color: white;" onclick="realizarCompra()">Realizar Compra</button>
-        <br>
+        <br><br>
         <span onclick="cerrarModal()" style="cursor: pointer;">Cerrar</span>
-      </form>
       </div>
+    </form>
     </div>
   
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
