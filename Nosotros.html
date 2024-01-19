@@ -66,28 +66,48 @@
                   </li>
               </ul>
           </div>
-          <div class="d-flex align-items-center">
-              <div class="dropdown">
-                  <a
-                      data-mdb-dropdown-init
-                      class="dropdown-toggle d-flex align-items-center hidden-arrow"
-                      href="#"
-                      id="navbarDropdownMenuAvatar"
-                      role="button"
-                      aria-expanded="false"
-                  >
-                      <img
-                          src="https://i.pinimg.com/236x/c5/c0/b0/c5c0b00fafd9e5e4b7fd913a1dbcfc2f.jpg"
-                          class="rounded-circle"
-                          height="25"
-                          alt="Black and White Portrait of a Man"
-                          loading="lazy"
-                      />
-                  </a>
-              </div>
+          <div
+          style="position: relative; margin-left: 10px"
+          class="d-flex align-items-center"
+        >
+          <div class="dropdown">
+            <a
+              data-toggle="dropdown"
+              class="dropdown-toggle d-flex align-items-center hidden-arrow"
+              href="#"
+              id="navbarDropdownMenuAvatar"
+              role="button"
+              aria-expanded="false"
+            >
+              <img
+                src="https://i.pinimg.com/236x/c5/c0/b0/c5c0b00fafd9e5e4b7fd913a1dbcfc2f.jpg"
+                class="rounded-circle"
+                height="25"
+                alt="Black and White Portrait of a Man"
+                loading="lazy"
+              />
+            </a>
+            <div
+              class="dropdown-menu dropdown-menu-right mt-0"
+              aria-labelledby="navbarDropdownMenuAvatar"
+              style="
+                right: 0;
+                z-index: 1000;
+                background-color: rgba(0, 0, 0, 0.5);
+              "
+            >
+              <a
+                style="color: white"
+                class="dropdown-item"
+                href="#"
+                onclick="cerrarSesion()"
+                >Cerrar Sesión</a
+              >
+            </div>
           </div>
+        </div>
       </div>
-  </nav>
+    </nav>
   <img src="img/png.png" alt="" style="width: 100%;">
   <div class="container1" style="text-align: center;">
     <br>
