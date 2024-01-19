@@ -1,14 +1,8 @@
 body {
   background-image: url('https://blz-contentstack-images.akamaized.net/v3/assets/blta8f9a8e092360c6c/blt0bc84c06e0101858/61e765a95ea4533b71dccdaf/1600_Featured_Games.jpg?format=webply&quality=80&auto=webp');
-  background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden; 
+  overflow: visible;
 }
-
-
 .mi-navbar{
   margin: 10px;
   border-radius: 10px;
@@ -31,246 +25,145 @@ body {
     left: 0;
     z-index: -1;
 }
-  .text-encima{
-      position: absolute;
-      width: 50%;
-      top: 100%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: white;
-      font-size: 45px;
-      font-weight: bold;
-      text-align: center;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-       
-  }
-      .parrafo-encima{
-  
-          position: absolute;
-          width: 90%;
-          top: 130%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          color: white;
-          font-size: 18px;
-          font-weight: bold;
-          text-align: center;
-          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-          
-      }
-      .section-bliz {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          
-      }
-    .video{
-  
-      height: 100px;
-      max-width: 900px;
-      margin-top: 950px;
-    } 
-      .video-iframe {
-     
-      border: 2px solid purple; 
-      padding: 10px; 
-   
-      }
-      .text-encima-2{
-  
-     position: absolute;
-     
-      top: 210%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: white;
-      font-size: 45px;
-      font-weight: bold;
-      text-align: center;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      }
-      .parrafo-encima-2{
-  
-          position: absolute;
-          width: 90%;
-          top: 230%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          color: white;
-          font-size: 18px;
-          font-weight: bold;
-          text-align: center;
-          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-          
-      }
-      .text-container-2 {
-          text-align: center;
-      }
-  
-      .card-container {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          height: 190vh; 
-          margin: 10px 10px; 
-      }
-      
-      .card {
-          width: 300px;
-          border-radius: 10px;
-          overflow: hidden;
-          display: flex;
-          align-items: center; 
-          margin-right: 20px; 
-      }
-      
-      .card-content {
-          width: 100%; 
-      }
-      
-      .card-image {
-          width: 110%;
-          height: auto;
-          display: block;
-          border-radius: 10px; 
-      }
-      
-      .card-container-2 {
-          display: flex;
-          justify-content: flex-start;
-          align-items: center;
-          height: 190vh;
-          margin: 10px 10px; 
-      }
-      
-      .card-2 {
-          width: 300px; 
-          margin-right: 20px; 
-      }
-      
-      .card-content-2 {
-          border-radius: 10px;
-          overflow: hidden;
-      }
-      
-      .card-image-2 {
-          width: 110%;
-          height: auto;
-          display: block;
-      }
-      
-     
-      .card-3 {
-          width: 300px;
-          border-radius: 10px;
-          overflow: hidden;
-          display: flex;
-          align-items: center;
-          margin-right: 20px; 
-        }
-        
-        .card-content-3 {
-          width: 100%;
-        }
-        
-        .card-image-3 {
-          width: 110%;
-          height: auto;
-          display: block;
-          border-radius: 10px; 
-        }
-        .text-encima-3{
-        
-          position: absolute;
-          top: 306%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          color: white;
-          font-size: 30px;
-          font-weight: bold;
-          text-align: center;
-          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  
-        }
-        .links--4noG_ {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-        }
-        
-        .iconLink--u2JZf {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          gap: 10px;
-          margin-right:120px;
-          margin-top: -480px; 
-        }
-        
-        .iconLink--u2JZff {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          gap: 10px;
-          margin-top: -40px;
-        }
-        .iconLink--u2JZfy {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          gap: 10px;
-          margin-right: -120px;
-          margin-top: -490px;
-        }
-        
-        .icon--1SZos-facebook {
-          width: 40px;
-          height: 20px;
-          fill: white;
-        }
-        .icon--1SZos-Youtube {
-          width: 40px;
-          height: 20px;
-          fill: white;
-        }
-        
-        .icon--1SZos {
-          width: 40px;
-          height: 100%;
-          fill: white;
-        }
-        .hr {
-          border-bottom: 2px solid rgb(45, 112, 199);
-          position: absolute;
-          width: 100%; 
-          z-index: 1; 
-        }
-        .comentarios{
+.custom-card {
+  width: 400px; 
+  height: auto; 
+  margin: 30px; 
+  position: relative; 
+}
 
-          position: absolute;
-          top: 408%;
-          left: 2%;
-          color: white;
+.custom-card .card-img-top {
+  width: 100%; 
+  height: auto; 
+}
 
-        }
-        .opinas{
 
-            position: relative;
-            top: -400px;
+.custom-card:nth-child(2) {
+  margin-top: 200%; 
+}
+.colored-section {
+  width: 100%;
+  background-color: #011827;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+      
+        .mantente {
             color: white;
-
+            position: absolute; 
+            top: 307%; 
+            left: 50%; 
+            transform: translate(-50%, -50%);
+        }
+        .container {
+            display: flex;
+            justify-content: center; 
+            align-items: flex-end;
+            height: 05px; 
+            
         }
         
-        .formulario {
-            position: relative;
-            top: -390px; 
-          }
-          
+        .img2 {
+            width: 40px; 
+            margin: 30px 20px -60px 10px; 
+            filter: invert(1);
+        }
+        .img-logo {
+            display: block;
+            margin: 50px auto 0; 
+            max-width: 15%;
+            height: auto;
+            transition: filter 0.3s ease; 
+        }
+        
+        .img-logo:hover {
+            filter: brightness(2.0); 
+        }
+        .topLinks {
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+        }
+        
+        .LINK {
+            margin-right: 10px; 
+        }
+        
+        .LINK a {
+            color: white;
+            text-decoration: none; 
+        }
+        
+        .LINK:not(:last-child)::after {
+            content: "|"; 
+            margin-left: 10px; 
+            color: white; 
+        }
+        .bnet {
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+            text-align: center;
+        }
+        
+        .bnet span {
+            margin-right: 2px; 
+        }
+        
+        .bnet img {
+            max-width: 100px; 
+            height: auto;
+        }
+        
+        .bnet .link {
+            margin-left: 2px; 
+        }
+        .trademark {
+            font-size: 12px; 
+            padding: 5px; 
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .trademark span, .trademark a, .trademark b {
+            color: rgb(177, 176, 176);
+            text-shadow: 1px 1px 3px #555; 
+        }
+        
+        .trademark a {
+            text-decoration: none; 
+        }   
+        .year-span {
+            font-size: 12px;
+            color: rgb(177, 176, 176);
+        }
+        .bottomLinks {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .link {
+            margin: 0 5px; 
+        }
+        
+        .link a {
+            color: rgb(177, 176, 176); 
+            text-decoration: none; 
+            font-size: 12px; 
+        }
+        
+        .link:not(:last-child)::after {
+            content: "|"; 
+            margin: 0  3px; 
+            color: rgb(173, 172, 172); 
+        }
+       
+         
           
           
           

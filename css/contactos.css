@@ -1,0 +1,192 @@
+body {
+    background-image: url('https://blz-contentstack-images.akamaized.net/v3/assets/blta8f9a8e092360c6c/blt0bc84c06e0101858/61e765a95ea4533b71dccdaf/1600_Featured_Games.jpg?format=webply&quality=80&auto=webp'); /* Reemplaza 'ruta_de_la_imagen.jpg' con la ruta de tu imagen */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin: 0; 
+    padding: 0; 
+  }
+.mi-navbar {
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.mi-navbar-img {
+    height: 45px;
+}
+
+.navbar-titulo {    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.custom-card {
+    width: 23rem !important;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    margin-left: 140px !important; 
+    margin-top: 200px !important; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.custom-card img {
+    width: 50px !important; 
+    filter: invert(1) !important; 
+}
+.card.custom-card-new{
+    width: 23rem !important;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    margin-left: 540px !important; 
+    margin-top: -284px !important; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card.custom-card-another {
+    width: 23rem !important;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    margin-left: 940px !important;
+    margin-top: -284px !important; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card.custom-card-new img,
+.card.custom-card-another img {
+    width: 50px !important; 
+    filter: invert(1) !important; 
+}
+h1 {
+    color: white;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -460%);
+}
+.colored-section {
+    background-color: #011827; 
+    padding: 40px; 
+    color: white;
+    text-align: center;
+}
+
+
+.other-section {
+    padding: -50%; 
+    color: black;
+}
+h2 {
+    color: white;
+    position: absolute; 
+    top: 85%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-end;
+    height: 05px; 
+}
+
+.img2 {
+    width: 40px; 
+    margin: 30px 20px -50px 10px; 
+    filter: invert(1);
+}
+.img-logo {
+    display: block;
+    margin: 50px auto 0; 
+    max-width: 15%;
+    height: auto;
+    transition: filter 0.3s ease; 
+}
+
+.img-logo:hover {
+    filter: brightness(2.0); 
+}
+.topLinks {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.LINK {
+    margin-right: 10px; 
+}
+
+.LINK a {
+    color: white;
+    text-decoration: none; 
+}
+
+.LINK:not(:last-child)::after {
+    content: "|"; 
+    margin-left: 10px; 
+    color: white; 
+}
+.bnet {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+}
+
+.bnet span {
+    margin-right: 2px; 
+}
+
+.bnet img {
+    max-width: 100px; 
+    height: auto;
+}
+
+.bnet .link {
+    margin-left: 2px; 
+}
+.trademark {
+    font-size: 12px; 
+    padding: 5px; 
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.trademark span, .trademark a, .trademark b {
+    color: rgb(177, 176, 176);
+    text-shadow: 1px 1px 3px #555; 
+}
+
+.trademark a {
+    text-decoration: none; 
+}   
+.year-span {
+    font-size: 12px;
+    color: rgb(177, 176, 176);
+}
+.bottomLinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link {
+    margin: 0 5px; 
+}
+
+.link a {
+    color: rgb(177, 176, 176); 
+    text-decoration: none; 
+    font-size: 12px; 
+}
+
+.link:not(:last-child)::after {
+    content: "|"; 
+    margin: 0  3px; 
+    color: rgb(173, 172, 172); 
+}

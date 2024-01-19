@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/contactos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link style="width: 50px" rel="shortcut icon" href="img/bliz.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&family=Rubik+Glitch&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <title>Contactos</title>
+  </head>
+  <body style="background-color: rgb(3, 3, 3)">
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-transparent mi-navbar"
+      style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)"
+    >
+      <div class="container-fluid rounded">
+        <button
+          data-mdb-collapse-init
+          class="navbar-toggler"
+          type="button"
+          data-mdb-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <a class="navbar-brand mt-2 mt-lg-0 mi-navbar-img" href="#">
+          <img
+            src="https://1000marcas.net/wp-content/uploads/2022/05/Blizzard-Logo-1994.png"
+            height="25"
+            alt="MDB Logo"
+            loading="lazy"
+          />
+        </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-titulo">
+            <li class="nav-item">
+              <a class="nav-link" href="Productos.html" style="color: white"
+                >Productos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Nosotros.html" style="color: white"
+                >Nosotros</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contactos.html" style="color: white"
+                >Contactos</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                style="color: white"
+              >
+                Cuenta
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdown"
+                style="background-color: rgba(0, 0, 0, 0.5); margin-right: 5px"
+              >
+                <a
+                  class="dropdown-item"
+                  href="Iniciar.html"
+                  style="color: white"
+                  >Iniciar Sesión</a
+                >
+                <a class="dropdown-item" href="cuenta.html" style="color: white"
+                  >Registrarse</a
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div
+          style="position: relative; margin-left: 10px"
+          class="d-flex align-items-center"
+        >
+          <div class="dropdown">
+            <a
+              data-toggle="dropdown"
+              class="dropdown-toggle d-flex align-items-center hidden-arrow"
+              href="#"
+              id="navbarDropdownMenuAvatar"
+              role="button"
+              aria-expanded="false"
+            >
+              <img
+                src="https://i.pinimg.com/236x/c5/c0/b0/c5c0b00fafd9e5e4b7fd913a1dbcfc2f.jpg"
+                class="rounded-circle"
+                height="25"
+                alt="Black and White Portrait of a Man"
+                loading="lazy"
+              />
+            </a>
+            <div
+              class="dropdown-menu dropdown-menu-right mt-0"
+              aria-labelledby="navbarDropdownMenuAvatar"
+              style="
+                right: 0;
+                z-index: 1000;
+                background-color: rgba(0, 0, 0, 0.5);
+              "
+            >
+              <a
+                style="color: white"
+                class="dropdown-item"
+                href="#"
+                onclick="cerrarSesion()"
+                >Cerrar Sesión</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <h1 style="color: white">CONTACTO</h1>
+    <div class="card custom-card">
+      <br />
+      <img src="img/chat-left-dots.svg" class="card-img-top" alt="..." />
+      <br />
+      <div class="card-body">
+        <h5 style="color: white; text-align: center" class="card-title">
+          Asistencia al cliente
+        </h5>
+        <br />
+        <p
+          style="color: white; text-align: center; width: 100%"
+          class="card-text"
+        >
+          Estamos disponibles las veinticuatro horas de todos los días de la
+          semana para ayudaros con vuestros problemas en los juegos, tiendas y
+          cuentas.
+        </p>
+      </div>
+    </div>
+    <div class="card custom-card-new">
+      <br />
+      <img src="img/filter-square.svg" class="card-img-top" alt="..." />
+      <br />
+      <div class="card-body">
+        <h5 style="color: white; text-align: center" class="card-title">
+          Contacto de prensa y medios de comunicación
+        </h5>
+        <br />
+        <p
+          style="color: white; text-align: center; width: 100%"
+          class="card-text"
+        >
+          ¿Quieres notas de prensa, materiales o ponerte en contacto con nuestro
+          equipo de relaciones públicas? Te ayudamos.
+        </p>
+      </div>
+    </div>
+
+    <div class="card custom-card-another">
+      <br/>
+      <img src="img/rocket-takeoff.svg" class="card-img-top" alt="..." />
+      <br/>
+      <div class="card-body">
+        <h5 style="color: white; text-align: center" class="card-title">
+          Visitas
+        </h5>
+        <br/>
+        <p
+          style="color: white; text-align: center; width: 100%"
+          class="card-text"
+        >
+          ¡Explora las increíbles oficinas de Blizzard en persona y descubre el
+          fascinante mundo detrás de tus juegos favoritos! Sumérgete en un
+          ambiente lleno de creatividad.
+        </p>
+      </div>
+    </div>
+    <br/><br/><br/>
+    <div class="colored-section">
+      <h2 style="text-align: center">¡Mantente al dia!</h2>
+      <br>
+      <div class="container">
+        <img class="img2" src="img/facebook.svg" alt="Facebook" />
+        <img class="img2" src="img/instagram.svg" alt="Instagram" />
+        <img class="img2" src="img/twitter-x.svg" alt="Twitter" />
+        <img class="img2" src="img/youtube.svg" alt="YouTube" />
+      </div>
+      <br>
+      <div>
+        <img
+          class="img-logo"
+          src="https://download.logo.wine/logo/Blizzard_Entertainment/Blizzard_Entertainment-Logo.wine.png"
+          alt=""
+        />
+      </div>
+      <div class="topLinks">
+        <div class="LINK" role="presentation">
+            <a href="Nosotros.html" analytics-label="Información" data-id="INFORMACIÓN">
+                <span>Información</span>
+            </a>
+        </div>
+    
+        <div class="LINK" role="presentation">
+            <a href="Contactos.html" analytics-label="Contacto" data-id="CONTACTO">
+                <span>Contacto</span>
+            </a>
+        </div>
+    
+        <div class="LINK" role="presentation">
+            <a href="/site-map" analytics-label="Mapa del sitio" data-id="MAPA DEL SITIO">
+                <span>Mapa del sitio</span>
+            </a>
+        </div>
+    </div>
+    <div role="presentation" id="download-bnet" class="bnet">
+        <span>Todos los juegos en una aplicación:</span>
+        &nbsp;
+        <img src="https://blz-contentstack-images.akamaized.net/v3/assets/blt72f16e066f85e164/blte3966755befd2838/60dd06972b55c663af1b71ac/bnet-logo-01.svg" alt="">
+        &nbsp;
+        <div class="link" role="presentation">
+            <a href="https://www.blizzard.com/apps/battle.net/desktop" analytics-label="Aplicación de escritorio de Battle.net" data-id="aplicación de escritorio de battle.net">
+                <span>Aplicación de escritorio de Battle.net</span>
+            </a>
+        </div>
+        <slot name="download-bnet"></slot>
+    </div>
+    <br>
+    <div>
+        <span class="year-span">©2023 Blizzard Entertainment, Inc.</span>
+    </div>
+    <div role="presentation" id="trademark" class="trademark">
+        <span>Todas las</span>
+        &nbsp;
+        <div class="link" role="presentation">
+            <a href="#" analytics-label="marcas comerciales" data-id="marcas comerciales">
+                <b>marcas comerciales</b>
+            </a>
+        </div>
+        &nbsp;
+        <span>a las que se hace referencia son propiedad de sus respectivos dueños.</span>
+        <slot name="trademark"></slot>
+
+    </div>
+    <div role="presentation" id="bottom-links" class="bottomLinks">
+        <div class="link" role="presentation">
+            <a href="https://www.blizzard.com/es-es/legal/8c41e7e6-0b61-42c4-a674-c91d8e8d68d3/" analytics-label="Privacidad" data-id="privacidad">
+                <span>Privacidad</span>
+            </a>
+        </div>
+        <div role="presentation" id="bottom-links" class="bottomLinks">
+            <div class="link" role="presentation">
+                <a href="https://www.blizzard.com/es-es/legal/8c41e7e6-0b61-42c4-a674-c91d8e8d68d3/" analytics-label="Privacidad" data-id="privacidad">
+                    <span>Privacidad</span>
+                </a>
+            </div>
+            <div class="link" role="presentation">
+                <a href="https://www.blizzard.com/legal/" analytics-label="Legal" data-id="legal">
+                    <span>Legal</span>
+                </a>
+            </div>
+            <div class="link" role="presentation">
+                <a href="https://www.blizzard.com/legal/511dbf9e-2b2d-4047-8243-4c5c65e0ebf1/" analytics-label="Términos" data-id="términos">
+                    <span>Términos</span>
+                </a>
+            </div>
+            <div class="link" role="presentation">
+                <a href="https://www.blizzard.com/cookies" analytics-label="Política de cookies" data-id="política de cookies">
+                    <span>Política de cookies</span>
+                </a>
+            </div>
+            <div class="link" role="presentation">
+                <a href="https://www.blizzard.com/cookies#settings" analytics-label="Ajustes de cookies" data-id="ajustes de cookies">
+                    <span>Ajustes de cookies</span>
+                </a>
+            </div>
+        </div>
+</div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/contactanos.js"></script>
+  </body>
+</html>
